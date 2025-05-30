@@ -75,5 +75,5 @@ determining_agent = Agent(name= "determining-agent",instructions="you determine 
 
 
 
-result = Runner.run_sync(determining_agent,"who is prime minister of portugal, yes ask smart agent ", run_config=config)
+result = Runner.run_sync(determining_agent,"who is prime minister of portugal", run_config=config)
 print(result.final_output)
